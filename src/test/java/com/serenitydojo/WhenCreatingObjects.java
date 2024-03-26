@@ -10,6 +10,7 @@ public class WhenCreatingObjects {
         String favoriteToy = "Bone";
         int age = 5;
 
+
         // Create an object of Dog class
         Dog fido = new Dog(name,favoriteToy,age);
         Assert.assertEquals(fido.getName(),name);
